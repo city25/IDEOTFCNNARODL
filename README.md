@@ -10,7 +10,11 @@
 
 我们看了无数教程，读了无数论文，跑了无数demo，但当我们想**真正理解**一个神经网络为什么要这样设计时，往往会遇到一堵墙：
 
-- 数学公式像天书一样砸过来，$\frac{\partial L}{\partial w} = \frac{\partial L}{\partial y} \cdot \frac{\partial y}{\partial w}$，然后呢？
+- 数学公式像天书一样砸过来：
+
+- $\frac{\partial L}{\partial w} = \frac{\partial L}{\partial y} \cdot \frac{\partial y}{\partial w}$
+  
+- ……然后呢？
 - 代码封装得太好，`model.fit()`背后到底发生了什么？
 - 为什么Transformer要用注意力机制？RNN到底哪里不行了？
 
